@@ -1,0 +1,98 @@
+30. Utwórz klasę Pracownik. Utwórz konstruktor z polami imię, nazwisko, stanowisko, pensja (double). Napisz metodę toString(), która zwraca informacje o
+   pracowniku.
+    Utwórz klasę Firma, w której w prywatnej tablicy 'pracownicy (Pracownik[] pracownicy) przechowywane będą dane dotyczące pracowników firmy.
+    Napisz następujące metody:
+    - metoda 'add' dodająca pracownika do listy pracowników
+    - metoda 'remove' usuwająca pracownika z listy pracowników
+    - metoda showAll() wyświetlająca dane wszystkich pracowników
+    - metoda show(String imię, String nazwisko) wyświetla dane pracownika o tym imieniu i nazwisko, lub wyświetlająca informację "nie ma takiego pracownika"
+    - metoda show(String stanowisko) wyświetlająca wszystkich pracowników o tym stanowisku
+
+    - metoda obliczająca średnią pensję w firmie
+    - metoda wyświetlająca dane pracowników o pensji wyższej niż średnia w firmie
+    - metoda znajdująca pracownika o najwyższej pensji
+    - metoda znajdująca pracownika o pensji najbliższej do średniej pensji w firmie
+    - metoda znajdująca stanowisko, które pojawia się najczęściej wśród pracowników firmy
+    - metoda znajdująca stanowisko o najwyższej średniej pensji
+    - metoda z argumentami: imie i nazwisko i wyświetlająca dane pracownika o tym imieniu i nazwisku (jeśli jest taki) lub wyświetlająca informację, że
+      takiego pracownika nie ma
+
+31. Napisz klasę Dictionary, która posiada pole 'words' w postaci tablicy napisów (String[]). Dodaj metody:
+    - add (dodająca słowo do 'words')
+    - remove (usuwająca słowo z 'words')
+    - get(int i) - pobierająca słowo o numerze i w tablicy 'words'
+    - isInDictionary(String s) - sprawdzająca czy słowo 's' jest w tablicy 'words' (zwraca true), lub zwraca false jeśli słowa tam nie ma
+
+    - metoda sprawdzająca podane jako parametr zdanie. Wypisuje te słowa ze zdania, których nie ma w słowniku
+    - metoda sprawdzająca podane jako parametr zdanie. Wypisuje te słowa ze zdania, które są w słowniku
+    Program powinien działać w pętli i pozwalać użytkownikowi na wpisywanie zdań, a jeżli użytkownik wpisze 'quit', to program kończy działanie
+    Po wypisaniu nieznanych słów użytkownik powinien mieć możliwość dodania tych nieznanych słów do słownika.
+
+32.  Dla N-elementowej tablicy liczb całkowitych napisz funkcje, które
+    - zwraca sumę elementów tablicy
+    - zwraca suma dodatnich elementów tablicy
+    - zwraca liczbę ujemnych elementów tablicy
+    - zwraca tablicę w porządku odwróconym
+    - zwraca posortowaną tablicę (użyj wbudowanej metody Arrays.sort)
+    - zamienia elementy nieparzyste na ich podwojenie, a parzystym zmienia się znak na przeciwny (np. 4 -> -4)
+    - za każdą ujemną wartością wstawia zero
+    - liczby ujemne są zwiększane o 1, a dodatnie zmniejszane o 1
+    Zmień program tak, aby cała funkcjonalność miała miejsce w klasie Table w postaci osobnych metod tej klasy
+
+33. Dane są 2 tablice Tab1 i Tab2 o rozmiarach N1 i N2. Napisz funkcje, które
+    - funkcja oblicza ile elementów tablicy Tab1 jest równych tym z tablicy Tab2
+    - funkcja tworzy tablicę wynikową w ten sposób, że jeśli na i-tej pozycji w obu tablicach jest ta sama wartość, to umieszczamy ją w tablicy wynikowej, a
+      w przeciwnym przypadku umieszczamy w tablicy wynikowej mniejszą wartość z obu tablic (np. jeśli Tab1[i] = 3 a Tab2[i] = 5, to umieszczamy tam 3)
+    - tworzy tablicę wynikową, gdzie każdy element jest sumą Tab1[i] oraz Tab2[i] a elementy nie mające pary są przepisywane do tablicy wynikowej
+    - tworzy tablicę wynikową w ten sposób, że na początku są elementy tablicy Tab1, a następnie elementy z tablicy Tab2
+    - tworzy tablicę wynikową w ten sposób, że na początku są elementy tej tablicy, której suma elementów jest mniejsza, a następnie elementy z tej
+      drugiej tablicy
+    Zmień program tak, aby cała funkcjonalność miała miejsce w klasie Table w postaci osobnych metod tej klasy
+
+34. Napisz klasę Sentence, która zawiera zdanie (tworzenie zdania poprzez konstruktor).
+    - metoda Count() zwraca liczbę liter zdania
+    - prywatna metoda getWords() zwraca tablicę słów (wykorzystujemy metodę Split klasy String)
+    - metoda WordsCount() zwraca liczbę słów w zdaniu
+    - metoda WordsCount(char c) zwraca liczbę słów rozpoczynających się na daną literę (parametr c)
+    - motoda Invert() zwraca zdanie z odwróconą kolejnością słów
+    - metoda Common(Sentence sentencja) ma zwracać te słowa, które są w zdaniu obiektu i również w zdaniu z argumentu
+      (np. Sentence s1 = new Sentence("ala ma kota"); String wynik = s1.Common("ola ma pasa i kota") -> wynikiem ma być "ma kota")
+    - metoda getSimpleWords(int n) ma zwracać słowa nie dłuższe niż n liter
+    - metoda getWordsContaining(String s) ma zwracać słowa zawierające łąńcuch znaków s.
+
+35. Program z napisami do filmów. Utwórz klasę Napis z polami CzasOd (typ LocalDate) i CzasDo (tym LocalDate) oraz napis (String).
+   Dodaj konstruktor z 3 parametrami.
+   Dodaj metodę toString() zwracającą napis w postaci np. 03:02-03:05 Niech Moc będzie z Tobą
+   Utwórz klasę Napisy zawierającą tablicę 'napisy' (typu Napis[]) a w niej dodaj metody:
+   - add (dodającą napis do 'napisy')
+   - remove (usuwającą napis rozpoczynający się w określonym czasie)
+   - getAll zwracającą wszystkie napisy
+   - get(z parametrami czasOd i czasDo) zwracającą napisy rozpoczynające się po czasOd i kończące się przed czasDo
+   - sort(char cc) sortującą napisy w tablicy 'napisy' według czasu (cc == 't') lub według kolejności alfabetycznej samego napisu (cc == 'a')
+
+36. Utwórz klasę Statek z polami nazwa (name), numer rejestracyjny (registration, np. POL2300, HMS 1000), ładowność (capacity, w tonach) oraz
+   posiadającą pole ładownia (hold | ramp, typu tablica Ładunek[]), gdzie Ładunek jest klasą z polami: nazwa (String) i ciężar (double).
+   W klasie Ładunek utwórz konstruktor , metody dostępowe (gettery) i metodę toString()
+   W klasie Statek dodaj metody:
+   - add(Ładunek lad)
+   - remove(Ładunek lad)
+   - empty (opróżniającą ładownię statku)
+   - getCapacity() - podającą ładowność statku
+   - getFreeVolume() zwracającą ciężar ładunków, które jeszcze można dodać do ładowni
+   Metoda 'add' powinna reagować na próbę załadowania ładunku, który razem z tymi, które już są załadowane do ładowni, przekracza ładowność statku
+
+37. Winda sterowana przez windziarza.
+    W budynu jest N pięter i winda. Winda porusza się w górę (up) lub w dół (down). Jak winda staje na danym piętrze, to z windy wysiadają
+    pasażerowie, którzy zamierzali wysiąść na tym piętrze. Następnie windziarz ładuje pasażerów (load 3, 1 -> 5, 2-> 7, 3-> 0).
+    Następnie windziarz decyduje czy jechać do góry (up) lub w dół (down). Jeśli windziarz zadecyduje, żeby jechać do góry a jesteśmy na
+    ostatnim piętrze, to powinien pokazać się odpowiedni komunikat i winda czeka na polecenie.
+    Jeśli winda jest na poziomie 0 a windziarz zadecydował, żeby jechać w dół, to pojawia się odpowiedni komunikat i winda czeka na polecenie.
+
+38. Bardzo prosta gra w mastermind'a. Komputer losuje 5 zer lub jedynek. Gracz powinien zgadnąć po maksymalnie 10 próbach układ zer i jedynek.
+    Za każdą próbą gracz otrzymuje informację zwrotną w postaci liczby trafień i liczby zgodnych "kolorów".
+    Np. dla układu: 10101
+    1 układ gracza: 00110 | 2 trafienia, 2 zgodne kolory
+    2 układ gracza: 10101 | 3 trafienia, 2 zgodne kolory
+    3 ukłąd gracza: 11001 | 3 trafienia, 2 zgodne kolory
+    4 układ gracza: 10101 | 5 trafień
+    Spróbuj napisać wersję, w której może pojawić się 0, 1 lub 2

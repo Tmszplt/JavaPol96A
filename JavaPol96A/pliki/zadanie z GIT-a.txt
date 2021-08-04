@@ -1,0 +1,16 @@
+Zadanie 1:
+	Pobrać projekt JavaPol96A
+	Utworzyć gałąź o nazwie imię.nazwisko
+	Przełączyć się na tę gałąź
+	Utworzyć plik hobby.txt i wpisać do niego swoje hobby
+	Utworzyć plik informatyka.txt i wpisać do niego: co umiem jako informatyk ;)
+	Utworzyć folder imię.nazwisko
+	Przenieść 2 utworzone pliki do folderu imię.nazwisko
+	Dodać pliki do poczekalni (staging area)
+	Utworzyć migawkę (commit)
+	Wysłać repozytorium lokalne do zdalnego (https://github.com/darecc/JavaPol96A.git)
+
+Zadanie 2:
+	Scalić gałąź imię.nazwisko z gałęzią master
+	Wysłać repozytorium lokalne do zdalnego (https://github.com/darecc/JavaPol96A.git)
+	

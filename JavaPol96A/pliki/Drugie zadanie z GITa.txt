@@ -1,0 +1,20 @@
+Utworzyæ projekt na github-ie
+Utworzyæ projekt lokalny i po³¹czyæ go z repozytorium zdalnym
+W ramach projektu w Intellij dodaæ klasê Program z metod¹ public static void main()
+W metodzie main() napisaæ przywitanie
+Wys³aæ projekt do repo zdalnego
+W oryginalnym projekcie zmieniæ przywtanie
+Utworzyæ migawkê (commit)
+Sklonowaæ projekt do inego folderu (np. kopia)
+Zmieniæ w kopii przywitanie i dopisaæ metodê display() wyœwietlaj¹c¹ informacjê o projekcie
+Wys³aæ kopiê do repo zdalnego
+Przejœæ do oryginalnego projektu
+Wykonaæ push do repozytorium zdalnego
+Jeœli nie uda siê, to wykonaæ git pull origin master
+Zobaczyæ projekt w Intellij
+
+----
+Zmieniæ w obu repo lokalnych tê sam¹ linijkê przywitania
+Wypchn¹æ zmiany do repo zdalnego (najpierw kopiê a potem oryginalne repo lokalne)
+Zobaczyæ konflikty w Intellij
+Zobaczyæ rozwi¹zanie konfliktów (prawy przycisk myszki)

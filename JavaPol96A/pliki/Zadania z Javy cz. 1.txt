@@ -1,0 +1,82 @@
+Zadanie 1:
+	Wyświetlenie podzielników (całkowitych) liczby X
+	Suma podzielników liczby X
+	Czy liczba jest doskonała (suma podzielników równa liczbie, np. 6 = 1 + 2 + 3)
+	Sprawdzić która z liczb od n1 do n2 są doskonałe
+
+Zadanie 2:
+	Pierwiastkowanie z użyciem *,/,+
+
+Zadanie 3:
+	Znając dzisiejsze dane (d, m, r) i dzień tygodnia trzeba dowiedzieć się jaki dzień będzie za n dni
+
+Zadanie 4:
+	Mamy 3 opakowania z lekami. L1 = 10 pastylek, L2 = 16 pastylek, L3 = 21 pastylek. Kiedy skończą się wszystkie 3 opakowania
+
+Zadanie 5:
+	Suma cyfr dla liczby X (np. X = 2021, suma cyfr = 2 + 0 + 2 + 1 = 5)
+	Wypisz liczby od 1 do 1000, dla których suma cyfr wynosi N (np. N = 9)
+
+Zadanie 6
+	UE w 2021 roku wytworzy PKB = 16 bln EUR. Wytworzy także CO2 równe PKB * 0,01 kg. Ponoć w 2040 roku emisja CO2 w UE ma być mniejsza o 55%. UE zamierza również rosnąć gospodarczo w kategorii PKB o 3% rocznie. 
+	Pytanie 1: ile wyniesie PKB UE w 2040 roku w bilionach EUR. I ile to będzie emisji CO2 bez redukcji emisji. 
+	Pytanie 2: ile UE będzie emitowało CO2 z redukcją emisji o 55%.
+
+Zadanie 7
+    Utwórz tablicę T zawierającą n losowych liczb całkowitych z przedziału 1...m. Znajdź długość najdłuższego
+    ciągu takich samych wartości.
+    Znajdź długość najdłuższego ciągu wartości większych niż średnia arytmetyczna liczb z tablicy T.
+
+
+Zadanie 8
+    Dla każdej liczby z przedziału od 100 do 999 znajdź wszystkie liczby bliźniacze.
+    Za liczbę bliźniaczą rozumiemy tu liczbę składającą się z takich samych cyfr.
+    Znajdź wszystkie liczby o takiej samej sumie podzielników całkowitych.
+
+
+Zadanie 9
+    Wyświetlacz czasu składa się z 3 części: G (godziny), M (minuty) oraz S (sekundy).
+    G = 0...23, M = 0...59, S = 0...59. Napisz program, który wczytuje G,M,S oraz p,
+    gdzie p to przesunięcie czasowe w sekundach. Zadaniem programu jest wyliczyć i
+    wyświetlić właściwy czas po przesunięciu o p sekund. Np. dla G = 7, M = 58 i S = 50,
+    p = 135 program ma zwrócić G = 8, M = 1, S = 5.
+
+Zadanie 10
+    Wczytaj liczbę rzeczywistą W (liczba większa od zera i mniejsza od 1).
+    Znajdź ułamek o mianowniku mniejszym od 100 000, który jest najmniej odległy od W.
+
+Zadanie 11
+    Znajdź pierwsze n liczb taksówkowych. Liczba taksówkowa x to liczba, która jest
+    sumą sześcianów dwóch liczb całkowitych na dwa sposoby (np. x = 1729 = 12^3 + 1^3
+    oraz 9^3 + 10^3).
+
+Zadanie 12
+    John Smith zna przyszłość więc postanowił wykorzystać to znając ją.
+    Ma do wyboru 3 strategie
+    - W pierszym roku może pomnożyć zainwestowaną kwotę 100 razy i w każdym następnym roku o połowę mniej (50 razy, 25 razy, 12 razy, 6 razy, 3 razy, 1 raz,...)
+    - W każdym kolejnym roku zainwestowana kwota rośnie o 2 razy
+    - W pierwszym roku kwota rośnie o 10 % i w każdym następnym roku przyrost kwoty zwiększa się o 10 %.
+    Podaj, która strategia jest najlepsza po N latach
+
+Zadanie 13
+   Na planecie "ta KapUS" zwanej również KapUS-ta żyją Kapuścianie i ich wyświetlacz
+    czasu składa się z 4 części:
+  - gumby (doba składa się z 21 gumb, 1 gumba = 3 qumby)
+  - qumby (1 qumba = 17 mumb)
+  - mumby (1 mumba = 71 sumb)
+  - sumby (1 sumba = 1 ziemskiej sekundzie)
+  Napisz klasę, w której przy pomocy konstruktora (god, min, sek) i metody KapUSTime() wyświetlany jest właściwy dla Kapuścian czas.
+  np. dla 19:50:20 mamy 71420 sumb = 1005 mumb i 65 sekund = 59 qumb i 2 mumby i 65 sekund = 19 gumb i 2 qumby i 2 mumby i 65 sekund = 19:02:02:65
+  Dodaj metodę, która oblicza ile sekund zostało do północy na planecie kapUS-ta
+
+Zadanie 14
+    Gra w wojnę: Dla dwóch graczy program rozdaje po 26 kart. W tablicy G1 i w tablicy G2
+    znajdą się liczby od 1 do 52 (wartość karty). Następnie obaj gracze podają swoją kartę
+    a program ustala, który z graczy wygrał potyczkę. Po stoczeniu 26 potyczek program
+    podaje wynik wojny np. 14:12
+    Należy zmodyfikować program, że dla gracza 1 jeśli miałby on wygrać potyczkę, to
+    program sprawdza czy gdyby zamienił obecną kartę z następną to jeśli ta kolejna karta
+    jest mniejsza od obecnej ale gracz 1 i tak by wygrał potyczkę, to program zamienia
+    obecną kartę z kolejną. Należy zobaczyć jak zmieni się wynik wojny.\
+
+Zadanie

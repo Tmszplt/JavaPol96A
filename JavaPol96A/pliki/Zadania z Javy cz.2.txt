@@ -1,0 +1,58 @@
+15. Dana jest tablica kwadratowa o rozmiarze n. Wczytaj pozycję okrętu (x, y). Wylosuj punkt startowy (pierwszy strzał) i staraj się znaleźć okręt.
+Po każdym strzale echosonda zwraca odległość od okrętu (pierwiastek kwadratowy z sumy kwadratów odległości x i y strzału od okrętu).
+Spróbuj opracować technikę zbliżania się do okrętu.
+
+16. Wczytaj n słów do dwuwymiarowej tablicy znaków. Każdy wiersz tablicy zawiera wyraz. Znajdź w tablicy takie wyrazy, które składają się z tych samych liter (oczywiście w różnych położeniach).
+
+17. Scal dwie posortowane tablice liczb całkowitych T1 (rozmiar n1) oraz T2 (o rozmiarze n2). Wynik zapamiętaj w tablicy T3 (o rozmiarze n1+n2)
+
+18. Dany jest akwen o rozmiarze sz * dl * gl (szerokość, długość, głębokość). W akwenie pływa n rekinów (każdy ma swój punkt x,y,z) -
+rekin w danym miejscu to 1, a brak rekina to 0. Wystrzel m bomb głębinowych, które wybuchną na losowj głębokości, szerokości i długości.
+Wybuchająca bomba zabija rekina w promieniu 5 od wybuchu. Podaj ile rekinów zabiłeś.
+
+18a. Głębokość w akwenie jest losową wartością z przedziału 20-100. Każdy pływający rekin to 1. Każdy zabity rekin spada aż na
+    dno (wartość - 1) lub jeśli spadając na dno napotka wartość -1, to umieszcza martwego rekina o jeden poziom powyżej (z wartością -1).
+
+19. Dana jest tablica kwadratowa T o rozmiarze n. Dla każdego elementu ustal wartość elementu jako średnią z jego wartości i średniej wartości jego sąsiadów.
+
+20. Utwórz metodę przyjmującą obie tablice i dodatkowo wartość typu int jako argumenty.
+
+Zadaniem metody będzie:
+dostarczenie tablicy, której wartościami będą sumy elementów na tych samych
+indeksach, gdy wartość argumentu typu int będzie mniejsza od 0;
+Uwaga - elementy które nie mają pary, powinny zostać pominięte
+dostarczenie tablicy zawierajacej tylko te elementy, które nie mają "pary"indeksowej,
+gdy wartość argumentu typu int będzie większa od 0
+dostarczenie elementu pustego gdy tablice są tej samej długości.
+     */
+    public static void main(String[] args) {
+
+        int[] t1 = new int[]{1, 3, 5, 6, 7, 1, 2, 3, 4, 8, 9};
+        int[] t2 = new int[]{9, 9, 5, 4, 5, 6, 2, 3};
+
+    }
+
+21. W sektorze na stadionie kibice siedzą w następujący sposób: w 1-ym rzędzie siedzi 1 osoba,
+w drugim siedzą dwie osoby,..., w n-tym rzędzie siedzi n -osób. Napisz program, w którym wczytane dane to:
+ n-rzędów i m-rzędów zajętych. Oblicz ile miejsc na stadionie jest pustych.
+
+22. Napisz funkcję F(int n), w której
+    F(n) = F(n-1) + n
+    F(1) = 1
+    F(2) = 2
+
+23. Napisz funkcję F(int n), w której
+    F(n) = 2*F(n-1) - F(n-2), dla n > 2
+    F(1) = 1
+    F(2) = 2
+    Policz i wyświetl liczbę odwołań do funkcji dla n =200, n = 300 , ...
+
+24. Dla kwadratowej tablicy o rozmiar N * N wylosuj liczby od 1 do 10. W kolejnych 5 iteracjach wylicz wartość każdego elementu tablicy:
+powinien mieć wartość średniej z niego samego i jego sąsiadów
+
+25. Wynajęcie domku w górach. Uprośćmy problem do możliwości wynajęcia domku w dniach od D1 do D2 mając tablicę Wynajęcia,
+gdzie Wynajęcia[i] = 1 oznacza, że w dniu i domek jest już wynajęty, a 0 oznacza, że nie jest. Funkcja//metoda SprawdźWynajem(int D1, int D2)
+zwraca true, jeśli domek można wynająć w terminie od D1 do D2 (zwraca false jeśli nie można wynająć), a metoda Wynajmij(int D1, int D2) wynajmuje
+domek (zapisuje 1 w tablicy Wynajęcia na odpowiednich pozycjach)
+
+26. Jak w zadaniu poprzednim, ale mamy do dyspozycji Hotel z N pokojami i wynajmujemy jeden z pokojów (sprawdzamy dostępność pokoju)

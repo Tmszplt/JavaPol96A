@@ -1,0 +1,27 @@
+git init
+git add .
+git add abc.txt bcd.txt
+git status
+git log
+git log --oneline --graph --date=relative --pretty=format:"%h %cr %cn %s"
+git config (dopowiedzieæ o aliasach)
+git commit -m
+git commit --amend
+git remote add origin URL
+git diff hash1 hash2
+git reset --hard
+git push
+git branch
+git branch nazwa-ga³êzi
+git branch nazwa-ga³êzi hash-commita
+git branch -d nazwa
+git checkout hash
+git checkout nazwa-ga³êzi
+git merge nazwa-ga³êzi
+git cherry-pick
+
+i inne polecenia:
+git tag
+git show
+git rebase
+aliasy
